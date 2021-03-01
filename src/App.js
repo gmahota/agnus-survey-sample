@@ -19,7 +19,7 @@ class App extends Component {
   };
   render() {
     var json = {
-      title: "Inquerito do Atendimento",
+      title: "Inquerito do Atendimento 😃",
       description: "Porfavor preencha os dados do inquerito com dados reais",
       logo: "https://mahotaservicos.com/videodownload/logo.png",
       logoWidth: 100,
@@ -258,6 +258,7 @@ class App extends Component {
 
     var onSurveyCompletion = this.state.isComplete ? (
       <div>
+        
         <p>Muito obrigado por preencher este inquerito. :) 
           Dados a serem enviados a base de dados
         </p>
