@@ -14,7 +14,7 @@
        {
         "type": "radiogroup",
         "name": "genero",
-        "title": "Qual é o seu Gênero (Opcional)",
+        "title": "Gênero (Opcional)",
         "isRequired": false,
         "choices": [
          {
@@ -30,7 +30,7 @@
        {
         "type": "rating",
         "name": "Idade",
-        "title": "Qual é a sua Faixa Etaria (Opcional)",
+        "title": "Faixa Etaria (Opcional)",
         "isRequired": false,
         "rateValues": [
          {
