@@ -1,0 +1,179 @@
+{
+    "pages": [
+     {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "image",
+        "name": "foto",
+        "imageLink": "data:image/jpeg;base64,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",
+        "imageHeight": 148,
+        "imageWidth": 202
+       },
+       {
+        "type": "expression",
+        "name": "question1",
+        "title": "Responda os Seguinte Inquerito da FMX"
+       },
+       {
+        "type": "html",
+        "name": "question2"
+       },
+       {
+        "type": "html",
+        "name": "question3"
+       },
+       {
+        "type": "comment",
+        "name": "nome",
+        "title": "Nome Completo?",
+        "isRequired": true,
+        "placeHolder": "Digite o seu nome "
+       },
+       {
+        "type": "radiogroup",
+        "name": "question5",
+        "title": "A Associacao em que pertence",
+        "isRequired": true,
+        "choices": [
+         {
+          "value": "item1",
+          "text": "Maputo Cidade"
+         },
+         {
+          "value": "item2",
+          "text": "Maputo Provincia"
+         },
+         {
+          "value": "item3",
+          "text": "Gaza"
+         },
+         {
+          "value": "item4",
+          "text": "Sofala"
+         },
+         {
+          "value": "item5",
+          "text": "Cabo Delgado"
+         },
+         {
+          "value": "item6",
+          "text": "Manica"
+         },
+         {
+          "value": "item7",
+          "text": "Tete"
+         },
+         {
+          "value": "item8",
+          "text": "Niassa"
+         },
+         {
+          "value": "item9",
+          "text": "Nampula (Phanhassy)"
+         },
+         {
+          "value": "item10",
+          "text": "Inhambane"
+         }
+        ],
+        "hasOther": true,
+        "otherText": "Inhambane"
+       },
+       {
+        "type": "html",
+        "name": "question4"
+       },
+       {
+        "type": "html",
+        "name": "question7",
+        "html": "<html>\n<"
+       },
+       {
+        "type": "paneldynamic",
+        "name": "question8"
+       },
+       {
+        "type": "image",
+        "name": "question9",
+        "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/lion.jpg",
+        "imageHeight": 148,
+        "imageWidth": 202
+       },
+       {
+        "type": "html",
+        "name": "question10"
+       },
+       {
+        "type": "html",
+        "name": "question11"
+       }
+      ],
+      "description": "INquerito FMX"
+     },
+     {
+      "name": "page2",
+      "elements": [
+       {
+        "type": "text",
+        "name": "contact",
+        "title": "Contacto",
+        "isRequired": true,
+        "placeHolder": "O seu numero de celular"
+       },
+       {
+        "type": "text",
+        "name": "Rating",
+        "title": "E-mail",
+        "isRequired": true,
+        "placeHolder": "digite o seu E-mail"
+       },
+       {
+        "type": "dropdown",
+        "name": "Qual o seu escalao?",
+        "choices": [
+         {
+          "value": "item1",
+          "text": "Juvenil"
+         },
+         {
+          "value": "item2",
+          "text": "Junior"
+         },
+         {
+          "value": "item3",
+          "text": "Senior"
+         }
+        ]
+       },
+       {
+        "type": "text",
+        "name": "question6",
+        "title": "Qual o seu rating?",
+        "isRequired": true,
+        "placeHolder": "Digite o seu Rating FIDE"
+       }
+      ],
+      "description": "Inquerito FMX"
+     },
+     {
+      "name": "page3",
+      "elements": [
+       {
+        "type": "text",
+        "name": "lichess",
+        "title": "Lichess",
+        "isRequired": true,
+        "placeHolder": "LIchess ID"
+       },
+       {
+        "type": "comment",
+        "name": "Opiniao",
+        "title": "O que acha que a FMX deve fazer para melhorar o nivel de Xadrez em MOz?",
+        "isRequired": true,
+        "placeHolder": "De a sua Opiniao sincera"
+       }
+      ]
+     }
+    ]
+   }
