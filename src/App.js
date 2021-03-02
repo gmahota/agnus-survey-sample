@@ -16,7 +16,10 @@ class App extends Component {
       isComplete: true,
       data:JSON.stringify(result.data, null, 3)
     });
+
+    console.log(this.state.data)
   };
+  
   render() {
     var json = bankjson;
     Survey.StylesManager.applyTheme("boostrap");
@@ -33,12 +36,9 @@ class App extends Component {
     var onSurveyCompletion = this.state.isComplete ? (
       <div>
         
-        <p>Muito obrigado por preencher este inquerito. :) 
-          Dados a serem enviados a base de dados
+        <p>
+        Muito Obrigado por participar ,as suas respostas sao muito importantes para nos.
         </p>
-        <div>
-          <p>{this.state.data}</p>
-        </div>
       </div>
     ) : null;
     return (

@@ -253,12 +253,6 @@
         "name": "question17",
         "title": "Alguma Preocupacao?",
         "isRequired": true
-       },
-       {
-        "type": "text",
-        "name": "question18",
-        "title": "Muito Obrigado por participar ,as suas respostas sao muito importantes para nos.",
-        "readOnly": true
        }
       ]
      }
