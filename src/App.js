@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import "survey-react/survey.css";
 import * as Survey from "survey-react";
 
-import fmxjson from  "./template/fmx-survey.json"
+import bankjson from  "./template/bank-survey.json"
 class App extends Component {
   constructor(props) {
     super(props);
@@ -19,7 +18,7 @@ class App extends Component {
     });
   };
   render() {
-    var json = fmxjson;
+    var json = bankjson;
     Survey.StylesManager.applyTheme("boostrap");
     var survey = new Survey.Model(json);
 

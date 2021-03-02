@@ -1,0 +1,266 @@
+{
+    "pages": [
+     {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "html",
+        "name": "question2"
+       },
+       {
+        "type": "html",
+        "name": "question3"
+       },
+       {
+        "type": "radiogroup",
+        "name": "genero",
+        "title": "Qual é o seu Gênero",
+        "isRequired": false,
+        "choices": [
+         {
+          "value": "Feminino",
+          "text": "Feminino"
+         },
+         {
+          "value": "Masculino",
+          "text": "Masculino"
+         }
+        ]
+       },
+       {
+        "type": "rating",
+        "name": "Idade",
+        "title": "Qual é a sua Faixa Etaria",
+        "isRequired": false,
+        "rateValues": [
+         {
+          "value": "18-40",
+          "text": "18-40"
+         },
+         {
+          "value": "40-60",
+          "text": "40-60"
+         },
+         {
+          "value": "+60",
+          "text": "+60"
+         }
+        ]
+       },
+       {
+        "type": "radiogroup",
+        "name": "Atendimento",
+        "title": "Classifique a Qualidade de Atendimento",
+        "isRequired": true,
+        "choices": [
+         {
+          "value": "Excelente",
+          "text": "Excelente"
+         },
+         {
+          "value": "Muito Bom",
+          "text": "Muito Bom"
+         },
+         {
+          "value": "Bom",
+          "text": "Bom"
+         },
+         {
+          "value": "Suficiente",
+          "text": "Suficiente"
+         },
+         {
+          "value": "Mau",
+          "text": "Mau"
+         }
+        ]
+       },
+       {
+        "type": "radiogroup",
+        "name": "TEspera",
+        "title": "Classifique o Periodo de tempo de espera",
+        "isRequired": true,
+        "choices": [
+         {
+          "value": "Excelente",
+          "text": "Excelente"
+         },
+         {
+          "value": "Muito Bom",
+          "text": "Muito Bom"
+         },
+         {
+          "value": "Bom",
+          "text": "Bom"
+         },
+         {
+          "value": "Suficiente",
+          "text": "Suficiente"
+         },
+         {
+          "value": "Mau",
+          "text": "Mau"
+         }
+        ]
+       },
+       {
+        "type": "radiogroup",
+        "name": "question5",
+        "title": "Como foi a Rapidez No Processo de Atendimento",
+        "isRequired": true,
+        "choices": [
+         {
+          "value": "Excelente",
+          "text": "Excelente"
+         },
+         {
+          "value": "Muito Bom",
+          "text": "Muito Bom"
+         },
+         {
+          "value": "Bom",
+          "text": "Bom"
+         },
+         {
+          "value": "Suficiente",
+          "text": "Suficiente"
+         },
+         {
+          "value": "Mau",
+          "text": "Mau"
+         }
+        ]
+       },
+       {
+        "type": "radiogroup",
+        "name": "question6",
+        "title": "A Forma como o Banco Resolve os Problemas e Saudavel?",
+        "isRequired": true,
+        "choices": [
+         {
+          "value": "Sim",
+          "text": "Sim"
+         },
+         {
+          "value": "Não",
+          "text": "Não"
+         }
+        ]
+       }
+      ],
+      "description": "Este inquerito tem como objectivo saber , o grau de satisfação dos nossos clientes no banco."
+     },
+     {
+      "name": "page2",
+      "description": "O Seu Grau de Satisfação.",
+      "elements": [
+       {
+        "type": "rating",
+        "name": "Servicos",
+        "title": "Classifique o processo de uso dos nossos serviços de 1-10",
+        "rateMax": 10
+       },
+       {
+        "type": "rating",
+        "name": "PExtrato",
+        "title": "Pedido de Extrato",
+        "rateMax": 10
+       },
+       {
+        "type": "rating",
+        "name": "AConta",
+        "title": "Abertura de Conta",
+        "rateMax": 10
+       },
+       {
+        "type": "rating",
+        "name": "PSaldos",
+        "title": "Pedido dos Saldos",
+        "rateMax": 10
+       },
+       {
+        "type": "radiogroup",
+        "name": "RProblemas",
+        "title": "Eficacia na Resolucao de Problemas ",
+        "choices": [
+         {
+          "value": "Excelente",
+          "text": "Excelente"
+         },
+         {
+          "value": "Muito Bom",
+          "text": "Muito Bom"
+         },
+         {
+          "value": "Bom",
+          "text": "Bom"
+         },
+         {
+          "value": "Satisfatorio",
+          "text": "Satisfatorio"
+         }
+        ],
+        "hasOther": true,
+        "otherText": "Mau"
+       },
+       {
+        "type": "radiogroup",
+        "name": "question16",
+        "title": "Relacionamento entre Cliente e Colaboradores",
+        "choices": [
+         {
+          "value": "Excelente",
+          "text": "Excelente"
+         },
+         {
+          "value": "Muito Bom",
+          "text": "Muito Bom"
+         },
+         {
+          "value": "Bom",
+          "text": "Bom"
+         },
+         {
+          "value": "Satisfatorio",
+          "text": "Satisfatorio"
+         }
+        ],
+        "hasOther": true,
+        "otherText": "Mau"
+       },
+       {
+        "type": "radiogroup",
+        "name": "RAmigos",
+        "title": "Recomenda a um amigo ou alguem proximo os nossos servicos?",
+        "choices": [
+         {
+          "value": "Sim",
+          "text": "Sim"
+         },
+         {
+          "value": "Não",
+          "text": "Não"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "page3",
+      "elements": [
+       {
+        "type": "comment",
+        "name": "question17",
+        "title": "Alguma Preocupacao?",
+        "isRequired": true
+       },
+       {
+        "type": "text",
+        "name": "question18",
+        "title": "Muito Obrigado por participar ,as suas respostas sao muito importantes para nos.",
+        "readOnly": true
+       }
+      ]
+     }
+    ]
+   }
