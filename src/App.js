@@ -3,7 +3,7 @@ import "./App.css";
 import "survey-react/survey.css";
 import * as Survey from "survey-react";
 
-import bankjson from  "./template/Bank-survey.v2.json"
+import bankjson from  "./template/bank-survey.v1.json"
 class App extends Component {
   constructor(props) {
     super(props);
@@ -22,7 +22,7 @@ class App extends Component {
   
   render() {
     var json = bankjson;
-    Survey.StylesManager.applyTheme("boostrap");
+    Survey.StylesManager.applyTheme("darkblue");
     var survey = new Survey.Model(json);
 
     var surveyRender = !this.state.isComplete ? (
@@ -36,9 +36,9 @@ class App extends Component {
     var onSurveyCompletion = this.state.isComplete ? (
       <div>
         
-        <p>
+        <h1>
         Muito Obrigado por participar ,as suas respostas sao muito importantes para nos.
-        </p>
+        </h1>
       </div>
     ) : null;
     return (
