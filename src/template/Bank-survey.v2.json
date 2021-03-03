@@ -1,309 +1,349 @@
 {
     "pages": [
-     {
-      "name": "page1",
-      "elements": [
-       {
-        "type": "html",
-        "name": "question2",
-        "html": "<html>\n<body>\n<h1> Inquérito de Avaliação de Satisfação do Cliente</h1>\n\n<h2>Estimado cliente,</h2>\n\n<h3>Tendo em vista melhorar a prestação de serviço a si, solicitamos que preencha o presente inquérito confidencial, respondendo as seguintes perguntas:</h3>\n</html>"
-       },
-       {
-        "type": "html",
-        "name": "question3"
-       },
-       {
-        "type": "rating",
-        "name": "Idade",
-        "title": "A sua idade está entre:",
-        "description": " Coloque um x no quadrado que corresponda a  sua resposta.",
-        "isRequired": true,
-        "rateValues": [
-         {
-          "value": 1,
-          "text": "18-35"
-         },
-         {
-          "value": 2,
-          "text": "36-55"
-         },
-         {
-          "value": 3,
-          "text": "Acima de 55"
-         }
-        ]
-       },
-       {
-        "type": "radiogroup",
-        "name": "genero",
-        "title": "Sexo",
-        "isRequired": true,
-        "choices": [
-         {
-          "value": "item2",
-          "text": "Masculino"
-         },
-         {
-          "value": "item1",
-          "text": "Feminino"
-         }
-        ]
-       },
-       {
-        "type": "rating",
-        "name": "question1",
-        "title": "Na escala de 0 a 5 diga-nos se recomendaria os nossos serviços a outras pessoas? ",
-        "rateValues": [
-         {
-          "value": 1,
-          "text": "0"
-         },
-         {
-          "value": 2,
-          "text": "1"
-         },
-         {
-          "value": 3,
-          "text": "2"
-         },
-         {
-          "value": 4,
-          "text": "3"
-         },
-         {
-          "value": 5,
-          "text": "4"
-         },
-         {
-          "value": 6,
-          "text": "5"
-         }
-        ]
-       },
-       {
-        "type": "html",
-        "name": "question14"
-       },
-       {
-        "type": "html",
-        "name": "question4",
-        "html": "<h1> <font size=\"2\">   Tendo em consideração uma escala de 0 a 5 em que cada valor tem o seguinte significado:</font></h1>\n<li>0 - péssimo</li>\n<li>1 - mau</li>\n<li>2 - suficiente</li>\n<li>3 - bom</li>\n<li>4 - muito bom</li>\n<li>5 - Excelente</li>\nDiga-nos:"
-       },
-       {
-        "type": "html",
-        "name": "question7"
-       },
-       {
-        "type": "html",
-        "name": "question11"
-       },
-       {
-        "type": "radiogroup",
-        "name": "question15",
-        "title": "Os nossos serviços são próximos e acessíveis a si (caixas/ATMs/atendimento online)?",
-        "choices": [
-         {
-          "value": "item1",
-          "text": "0 - péssimo"
-         },
-         {
-          "value": "item2",
-          "text": "1 - mau"
-         },
-         {
-          "value": "item3",
-          "text": "2 - suficiente"
-         },
-         {
-          "value": "item4",
-          "text": "3 - bom"
-         },
-         {
-          "value": "item5",
-          "text": "4 - muito bom"
-         }
-        ],
-        "hasOther": true,
-        "otherText": "5 - Excelente"
-       },
-       {
-        "type": "radiogroup",
-        "name": "question16",
-        "title": " O serviço de atendimento é rápido e cordial?",
-        "choices": [
-         {
-          "value": "item1",
-          "text": "0 - péssimo"
-         },
-         {
-          "value": "item2",
-          "text": "1 - mau"
-         },
-         {
-          "value": "item3",
-          "text": "2 - suficiente"
-         },
-         {
-          "value": "item4",
-          "text": "3 - bom"
-         },
-         {
-          "value": "item5",
-          "text": "4 - muito bom"
-         }
-        ],
-        "hasOther": true,
-        "otherText": "5 - Excelente"
-       },
-       {
-        "type": "radiogroup",
-        "name": "question17",
-        "title": "O acesso ao gerente é:",
-        "choices": [
-         {
-          "value": "item1",
-          "text": "0 - péssimo"
-         },
-         {
-          "value": "item2",
-          "text": "1 - mau"
-         },
-         {
-          "value": "item3",
-          "text": "2 - suficiente"
-         },
-         {
-          "value": "item4",
-          "text": "3 - bom"
-         },
-         {
-          "value": "item5",
-          "text": "4 - muito bom"
-         }
-        ],
-        "hasOther": true,
-        "otherText": "5 - Excelente"
-       },
-       {
-        "type": "radiogroup",
-        "name": "question18",
-        "title": " Tem facilidade de acesso e contacto ao Banco?",
-        "choices": [
-         {
-          "value": "item1",
-          "text": "0 - péssimo"
-         },
-         {
-          "value": "item2",
-          "text": "1 - mau"
-         },
-         {
-          "value": "item3",
-          "text": "2 - suficiente"
-         },
-         {
-          "value": "item4",
-          "text": "3 - bom"
-         },
-         {
-          "value": "item5",
-          "text": "4 - muito bom"
-         }
-        ],
-        "hasOther": true,
-        "otherText": "5 - Excelente"
-       },
-       {
-        "type": "radiogroup",
-        "name": "question20",
-        "title": "Sente fidelidade e segurança no nosso Banco?",
-        "choices": [
-         {
-          "value": "item1",
-          "text": "0 - péssimo"
-         },
-         {
-          "value": "item2",
-          "text": "1 - mau"
-         },
-         {
-          "value": "item3",
-          "text": "2 - suficiente"
-         },
-         {
-          "value": "item4",
-          "text": "3 - bom"
-         },
-         {
-          "value": "item5",
-          "text": "4 - muito bom"
-         }
-        ],
-        "hasOther": true,
-        "otherText": "5 - Excelente"
-       },
-       {
-        "type": "radiogroup",
-        "name": "question21",
-        "title": "O valor das tarifas e taxas de juros são:",
-        "choices": [
-         {
-          "value": "item1",
-          "text": "0 - péssimo"
-         },
-         {
-          "value": "item2",
-          "text": "1 - mau"
-         },
-         {
-          "value": "item3",
-          "text": "2 - suficiente"
-         },
-         {
-          "value": "item4",
-          "text": "3 - bom"
-         },
-         {
-          "value": "item5",
-          "text": "4 - muito bom"
-         }
-        ],
-        "hasOther": true,
-        "otherText": "5 - Excelente"
-       }
-      ],
-      "description": "Banco ........."
-     },
-     {
-      "name": "page2",
-      "elements": [
-       {
-        "type": "radiogroup",
-        "name": "question10",
-        "title": "Sente vantagens em ter uma conta bancária a partir de que valor? ( Selectione o valor que  considera ser a sua condição)",
-        "choices": [
-         {
-          "value": "item1",
-          "text": "Acima de 100,00 MT"
-         },
-         {
-          "value": "item2",
-          "text": "Acima de 500,00 MT"
-         },
-         {
-          "value": "item3",
-          "text": "Acima de 1.000,00 MT"
-         }
-        ],
-        "hasOther": true,
-        "otherText": "Acima de 5.000,00 MT"
-       },
-       {
-        "type": "html",
-        "name": "question13",
-        "html": "<h1>Obrigado pela sua contribuição! \n Por um serviço cada vez melhor para si</h1>"
-       }
-      ]
-     }
+        {
+            "name": "page1",
+            "elements": [
+                {
+                    "type": "html",
+                    "name": "question2",
+                    "html": "<html>\n<body>\n<h1> Inquérito de Avaliação de Satisfação do Cliente</h1>\n\n<h2>Estimado cliente,</h2>\n\n<h3>Tendo em vista melhorar a prestação de serviço a si, solicitamos que preencha o presente inquérito confidencial, respondendo as seguintes perguntas:</h3>\n</html>"
+                },
+                {
+                    "type": "html",
+                    "name": "question3"
+                },
+                {
+                    "type": "rating",
+                    "name": "Idade",
+                    "title": "A sua idade está entre:",
+                    "description": " Coloque um x no quadrado que corresponda a  sua resposta.",
+                    "isRequired": true,
+                    "rateValues": [
+                        {
+                            "value": "18-35",
+                            "text": "18-35"
+                        },
+                        {
+                            "value": "36-55",
+                            "text": "36-55"
+                        },
+                        {
+                            "value": "+55",
+                            "text": "+ 55"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "genero",
+                    "title": "Sexo",
+                    "isRequired": true,
+                    "choices": [
+                        {
+                            "value": "Masculino",
+                            "text": "Masculino"
+                        },
+                        {
+                            "value": "Feminino",
+                            "text": "Feminino"
+                        }
+                    ]
+                },
+                {
+                    "type": "rating",
+                    "name": "question1",
+                    "title": "Na escala de 0 a 5 diga-nos se recomendaria os nossos serviços a outras pessoas? ",
+                    "rateValues": [
+                        {
+                            "value": 1,
+                            "text": "0"
+                        },
+                        {
+                            "value": 2,
+                            "text": "1"
+                        },
+                        {
+                            "value": 3,
+                            "text": "2"
+                        },
+                        {
+                            "value": 4,
+                            "text": "3"
+                        },
+                        {
+                            "value": 5,
+                            "text": "4"
+                        },
+                        {
+                            "value": 6,
+                            "text": "5"
+                        }
+                    ]
+                },
+                {
+                    "type": "html",
+                    "name": "question14"
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question4",
+                    "title": " Tendo em consideração uma escala de 0 a 5 em que cada valor tem o seguinte significado:",
+                    "choices": [
+                        {
+                            "value": "Péssimo",
+                            "text": "0 - Péssimo"
+                        },
+                        {
+                            "value": "Mau",
+                            "text": "1 - Mau"
+                        },
+                        {
+                            "value": "Suficiente",
+                            "text": "2 - Suficiente"
+                        },
+                        {
+                            "value": "Bom",
+                            "text": "3 - Bom"
+                        },
+                        {
+                            "value": "Muito Bom",
+                            "text": "4 - Muito Bom"
+                        },
+                        {
+                            "value": "Excelente",
+                            "text": "5 - Excelente"
+                        }
+                    ]
+                },
+                {
+                    "type": "html",
+                    "name": "question7"
+                },
+                {
+                    "type": "html",
+                    "name": "question11"
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question15",
+                    "title": "Os nossos serviços são próximos e acessíveis a si (caixas/ATMs/atendimento online)?",
+                    "choices": [
+                        {
+                            "value": "Péssimo",
+                            "text": "0 - Péssimo"
+                        },
+                        {
+                            "value": "Mau",
+                            "text": "1 - Mau"
+                        },
+                        {
+                            "value": "Suficiente",
+                            "text": "2 - Suficiente"
+                        },
+                        {
+                            "value": "Bom",
+                            "text": "3 - Bom"
+                        },
+                        {
+                            "value": "Muito Bom",
+                            "text": "4 - Muito Bom"
+                        },
+                        {
+                            "value": "Excelente",
+                            "text": "5 - Excelente"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question16",
+                    "title": " O serviço de atendimento é rápido e cordial?",
+                    "choices": [
+                        {
+                            "value": "Péssimo",
+                            "text": "0 - Péssimo"
+                        },
+                        {
+                            "value": "Mau",
+                            "text": "1 - Mau"
+                        },
+                        {
+                            "value": "Suficiente",
+                            "text": "2 - Suficiente"
+                        },
+                        {
+                            "value": "Bom",
+                            "text": "3 - Bom"
+                        },
+                        {
+                            "value": "Muito Bom",
+                            "text": "4 - Muito Bom"
+                        },
+                        {
+                            "value": "Excelente",
+                            "text": "5 - Excelente"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question17",
+                    "title": "O acesso ao gerente é:",
+                    "choices": [
+                        {
+                            "value": "Péssimo",
+                            "text": "0 - Péssimo"
+                        },
+                        {
+                            "value": "Mau",
+                            "text": "1 - Mau"
+                        },
+                        {
+                            "value": "Suficiente",
+                            "text": "2 - Suficiente"
+                        },
+                        {
+                            "value": "Bom",
+                            "text": "3 - Bom"
+                        },
+                        {
+                            "value": "Muito Bom",
+                            "text": "4 - Muito Bom"
+                        },
+                        {
+                            "value": "Excelente",
+                            "text": "5 - Excelente"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question18",
+                    "title": " Tem facilidade de acesso e contacto ao Banco?",
+                    "choices": [
+                        {
+                            "value": "Péssimo",
+                            "text": "0 - Péssimo"
+                        },
+                        {
+                            "value": "Mau",
+                            "text": "1 - Mau"
+                        },
+                        {
+                            "value": "Suficiente",
+                            "text": "2 - Suficiente"
+                        },
+                        {
+                            "value": "Bom",
+                            "text": "3 - Bom"
+                        },
+                        {
+                            "value": "Muito Bom",
+                            "text": "4 - Muito Bom"
+                        },
+                        {
+                            "value": "Excelente",
+                            "text": "5 - Excelente"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question20",
+                    "title": "Sente fidelidade e segurança no nosso Banco?",
+                    "choices": [
+                        {
+                            "value": "Péssimo",
+                            "text": "0 - Péssimo"
+                        },
+                        {
+                            "value": "Mau",
+                            "text": "1 - Mau"
+                        },
+                        {
+                            "value": "Suficiente",
+                            "text": "2 - Suficiente"
+                        },
+                        {
+                            "value": "Bom",
+                            "text": "3 - Bom"
+                        },
+                        {
+                            "value": "Muito Bom",
+                            "text": "4 - Muito Bom"
+                        },
+                        {
+                            "value": "Excelente",
+                            "text": "5 - Excelente"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question21",
+                    "title": "O valor das tarifas e taxas de juros são:",
+                    "choices": [
+                        {
+                            "value": "Péssimo",
+                            "text": "0 - Péssimo"
+                        },
+                        {
+                            "value": "Mau",
+                            "text": "1 - Mau"
+                        },
+                        {
+                            "value": "Suficiente",
+                            "text": "2 - Suficiente"
+                        },
+                        {
+                            "value": "Bom",
+                            "text": "3 - Bom"
+                        },
+                        {
+                            "value": "Muito Bom",
+                            "text": "4 - Muito Bom"
+                        },
+                        {
+                            "value": "Excelente",
+                            "text": "5 - Excelente"
+                        }
+                    ]
+                }
+            ],
+            "description": ""
+        },
+        {
+            "name": "page2",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "question10",
+                    "title": "Sente vantagens em ter uma conta bancária a partir de que valor? ( Selectione o valor que  considera ser a sua condição)",
+                    "choices": [
+                        {
+                            "value": "Abaixo5000",
+                            "text": "Abaixo de 5.000,00 MT"
+                        },
+                        {
+                            "value": "Acima5000",
+                            "text": "Acima de 5.000,00 MT"
+                        },
+                        {
+                            "value": "Acima20000",
+                            "text": "Acima de 20.000,00 MT"
+                        },
+                        {
+                            "value": "Acima40000",
+                            "text": "Acima de 40.000,00 MT"
+                        }
+                    ]
+                },
+                {
+                    "type": "html",
+                    "name": "question13",
+                    "html": "<h1>Obrigado pela sua contribuição! \n Por um serviço cada vez melhor para si</h1>"
+                }
+            ]
+        }
     ]
-   }
+}
