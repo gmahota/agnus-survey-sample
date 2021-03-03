@@ -3,7 +3,7 @@ import "./App.css";
 import "survey-react/survey.css";
 import * as Survey from "survey-react";
 
-import bankjson from  "./template/bank-survey.json"
+import bankjson from  "./template/Bank-survey.v2.json"
 class App extends Component {
   constructor(props) {
     super(props);
