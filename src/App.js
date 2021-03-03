@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import "./App.css";
 import "survey-react/survey.css";
 import * as Survey from "survey-react";
+import * as SurveyService from "./services/survey"
 
-import bankjson from  "./template/bank-survey.v1.json"
+import bankjson from  "./template/bank-survey.v2.json"
 class App extends Component {
   constructor(props) {
     super(props);
@@ -16,6 +17,8 @@ class App extends Component {
       isComplete: true,
       data:JSON.stringify(result.data, null, 3)
     });
+
+    SurveyService.save(result.data)
 
     console.log(this.state.data)
   };
