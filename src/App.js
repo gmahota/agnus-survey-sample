@@ -19,8 +19,6 @@ class App extends Component {
     });
 
     SurveyService.save(result.data)
-
-    console.log(this.state.data)
   };
   
   render() {
@@ -40,7 +38,7 @@ class App extends Component {
       <div>
         
         <h1>
-        Muito Obrigado por participar ,as suas respostas sao muito importantes para nos.
+        Muito Obrigado por participar.
         </h1>
       </div>
     ) : null;

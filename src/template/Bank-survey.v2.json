@@ -35,7 +35,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "genero",
+                    "name": "Genero",
                     "title": "Sexo",
                     "isRequired": true,
                     "choices": [
@@ -51,7 +51,7 @@
                 },
                 {
                     "type": "rating",
-                    "name": "question1",
+                    "name": "Recomendaria",
                     "title": "Na escala de 0 a 5 diga-nos se recomendaria os nossos serviços a outras pessoas? ",
                     "rateValues": [
                         {
@@ -83,49 +83,20 @@
                 {
                     "type": "html",
                     "name": "question14"
-                },
-                {
-                    "type": "radiogroup",
-                    "name": "question4",
-                    "title": " Tendo em consideração uma escala de 0 a 5 em que cada valor tem o seguinte significado:",
-                    "choices": [
-                        {
-                            "value": "Péssimo",
-                            "text": "0 - Péssimo"
-                        },
-                        {
-                            "value": "Mau",
-                            "text": "1 - Mau"
-                        },
-                        {
-                            "value": "Suficiente",
-                            "text": "2 - Suficiente"
-                        },
-                        {
-                            "value": "Bom",
-                            "text": "3 - Bom"
-                        },
-                        {
-                            "value": "Muito Bom",
-                            "text": "4 - Muito Bom"
-                        },
-                        {
-                            "value": "Excelente",
-                            "text": "5 - Excelente"
-                        }
-                    ]
-                },
-                {
-                    "type": "html",
-                    "name": "question7"
-                },
+                }
+            ],
+            "description": ""
+        },
+        {
+            "name": "page2",
+            "elements":[
                 {
                     "type": "html",
                     "name": "question11"
                 },
                 {
                     "type": "radiogroup",
-                    "name": "question15",
+                    "name": "Servicos",
                     "title": "Os nossos serviços são próximos e acessíveis a si (caixas/ATMs/atendimento online)?",
                     "choices": [
                         {
@@ -156,7 +127,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "question16",
+                    "name": "Atendimento",
                     "title": " O serviço de atendimento é rápido e cordial?",
                     "choices": [
                         {
@@ -187,7 +158,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "question17",
+                    "name": "AGerente",
                     "title": "O acesso ao gerente é:",
                     "choices": [
                         {
@@ -218,7 +189,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "question18",
+                    "name": "AcessoB",
                     "title": " Tem facilidade de acesso e contacto ao Banco?",
                     "choices": [
                         {
@@ -249,7 +220,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "question20",
+                    "name": "Fidelidade_Seguranca",
                     "title": "Sente fidelidade e segurança no nosso Banco?",
                     "choices": [
                         {
@@ -280,7 +251,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "question21",
+                    "name": "Taxa_Juros",
                     "title": "O valor das tarifas e taxas de juros são:",
                     "choices": [
                         {
@@ -310,14 +281,14 @@
                     ]
                 }
             ],
-            "description": ""
+            "description":"Tendo em consideração uma escala de 0 a 5 em que cada valor tem o seguinte significado:"
         },
         {
-            "name": "page2",
+            "name": "page3",
             "elements": [
                 {
                     "type": "radiogroup",
-                    "name": "question10",
+                    "name": "Salario",
                     "title": "Sente vantagens em ter uma conta bancária a partir de que valor? ( Selectione o valor que  considera ser a sua condição)",
                     "choices": [
                         {
